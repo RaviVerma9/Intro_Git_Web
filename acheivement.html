@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Koulen&family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Koulen&family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+
+    <style>
+      #absolutehh {
+        position: absolute;
+        top: 0;
+        left: -20%;
+        padding: 2px 4px;
+        border: 2px solid #fff;
+        width: 20%;
+        text-align: center;
+        color: chartreuse;
+      }
+
+      .main {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .divas {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        border: 2px solid #fff;
+        width: 60%;
+      }
+
+      #oneimg {
+        /* width: 800px; */
+        width: 100%;
+        height: auto;
+        border-bottom: 2px solid #fff;
+      }
+
+      .innerdiv {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+        gap: 10px;
+      }
+
+      @media (min-width: 992px) and (max-width: 1199px) {
+        .main {
+          margin-top: 5rem;
+          display: flex;
+          flex-direction: column;
+          gap: 10rem;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .divas {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          /* align-items: center; */
+          border: 2px solid #fff;
+          width: 70%;
+        }
+
+        #oneimg {
+          /* width: 800px; */
+          /* padding-top: 60px; */
+          width: 100%;
+          height: auto;
+          border-bottom: 2px solid #fff;
+        }
+
+        .innerdiv {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding-left: 10px;
+          gap: 10px;
+          /* font-size: 20px; */
+          padding-top: 20px;
+        }
+
+        .innerdiv h2 {
+          font-size: 30px;
+        }
+      }
+
+      @media (min-width: 768px) and (max-width: 991px) {
+        .main {
+          padding-left: 20px;
+          margin-top: 5rem;
+          display: flex;
+          flex-direction: column;
+          gap: 10rem;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .divas {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          /* align-items: center; */
+          border: 2px solid #fff;
+          width: 80%;
+        }
+
+        #oneimg {
+          /* width: 800px; */
+          /* padding-top: 60px; */
+          width: 100%;
+          height: auto;
+          border-bottom: 2px solid #fff;
+        }
+
+        .innerdiv {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding-left: 10px;
+          gap: 10px;
+          /* font-size: 20px; */
+          padding-top: 20px;
+        }
+
+        .innerdiv h2 {
+          font-size: 30px;
+        }
+      }
+
+      @media (min-width: 576px) and (max-width: 767px) {
+        .main {
+          padding-left: 30px;
+          margin-top: 5rem;
+          display: flex;
+          flex-direction: column;
+          gap: 10rem;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .divas {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          /* align-items: center; */
+          border: 2px solid #fff;
+          width: 80%;
+        }
+
+        #oneimg {
+          /* width: 800px; */
+          /* padding-top: 60px; */
+          width: 100%;
+          height: auto;
+          border-bottom: 2px solid #fff;
+        }
+
+        .innerdiv {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding-left: 10px;
+          gap: 10px;
+          /* font-size: 20px; */
+          padding-top: 20px;
+        }
+
+        .innerdiv h2 {
+          font-size: 25px;
+        }
+      }
+
+      @media (min-width: 0px) and (max-width: 575px) {
+        .main {
+          padding-left: 30px;
+          margin-top: 5rem;
+          display: flex;
+          flex-direction: column;
+          gap: 10rem;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .divas {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          /* align-items: center; */
+          border: 2px solid #fff;
+          width: 90%;
+        }
+
+        #oneimg {
+          /* width: 800px; */
+          /* padding-top: 60px; */
+          width: 100%;
+          height: auto;
+          border-bottom: 2px solid #fff;
+        }
+
+        .innerdiv {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding-left: 10px;
+          gap: 10px;
+          /* font-size: 20px; */
+          padding-top: 20px;
+        }
+
+        .innerdiv h2 {
+          font-size: 25px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="all">
+      <header>
+        <h2>MY ACHEIVEMENTS</h2>
+        <nav>
+          <ul>
+            <li><a href="education.html">Education</a></li>
+
+            <li><a href="Skills.html">Skills</a></li>
+
+            <li><a href="vision.html">Vision</a></li>
+
+            <li><a href="education.html">HOME</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="divas">
+          <img src="acheivement1.jpeg" alt="img" id="oneimg" />
+          <div class="innerdiv">
+            <h2><span>TOPIC:</span>WEB DEVELOPMENT TRAINING</h2>
+            <h2><span>Project:</span>TO DO LIST</h2>
+            <h2><span>Training Organizer:</span>MEDI-CAPS UNIVERSITY,INDORE</h2>
+            <h2><span>Mode:</span>ONLINE</h2>
+            <h2><span>Duration:</span>7 Days</h2>
+          </div>
+          <h2 id="absolutehh">(1).</h2>
+        </div>
+
+        <div class="divas">
+          <img src="acheivement2.jpeg" alt="img" id="oneimg" />
+          <div class="innerdiv">
+            <h2><span>TOPIC:</span>HTML,CSS, JAVASCRIPT</h2>
+            <h2><span>Project:</span>Hotel Webiste.</h2>
+            <h2><span>Training Organizer:</span>Johns Hopkins University,</h2>
+            <h2><span>Mode:</span>ONLINE</h2>
+            <h2><span>Duration:</span>1 month</h2>
+          </div>
+          <h2 id="absolutehh">(2).</h2>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
